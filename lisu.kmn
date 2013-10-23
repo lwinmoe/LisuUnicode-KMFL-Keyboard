@@ -6,11 +6,10 @@ c http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 c 
 c LM    1.00    2013-Oct-22     Initial version
 
-NAME "Lisu Unicode 5.2"
+NAME "Lisu Unicode"
 VERSION 5.0
 store(&Copyright) "© Lwin Moe (License: LGPL)"
-store( &Message ) "Lisu keyboard for typing Lisu with Unicode 5.2.0. "\
-"<http://www.unicode.org/versions/Unicode5.2.0/>. "\
+store( &Message ) "Lisu keyboard for typing Lisu with Unicode"\
 "This keyboard is freely redistributable under the terms of the GNU Lesser General Public License."
 
 BITMAP "lisu.bmp"
