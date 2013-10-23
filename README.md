@@ -10,7 +10,7 @@ Then, install `ibus-kmfl` with the following command.
  
 ## How to install the keyboard
 
-Keyboard layout is defined in `lisu.kmn`. It has to be copied to `.kmfl` directory in your home. If the directory is not there yet, create it first. Copy `lisu.kmn` and `icons` directory into `.kmfl`.
+Keyboard layout is defined in `lisu.kmn`. It has to be copied to `.kmfl` directory in your home. If the directory is not there yet, create it first. Copy `lisu.kmn` and `icons` into `.kmfl`.
 
 ### Notes on the keyboard layout
 
