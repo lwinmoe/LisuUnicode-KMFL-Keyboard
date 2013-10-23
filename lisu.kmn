@@ -1,0 +1,87 @@
+﻿c Lisu Keyboard for Unicode Encoding. 
+c Author: Lwin Moe
+c Distributable under the terms of the GNU Lesser General Public License,
+c either version 2.1 of the License, or (at your option) any later version.
+c http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+c 
+c LM    1.00    2013-Oct-22     Initial version
+
+NAME "Lisu Unicode 5.2"
+VERSION 5.0
+store(&Copyright) "© Lwin Moe (License: LGPL)"
+store( &Message ) "Lisu keyboard for typing Lisu with Unicode 5.2.0. "\
+"<http://www.unicode.org/versions/Unicode5.2.0/>. "\
+"This keyboard is freely redistributable under the terms of the GNU Lesser General Public License."
+
+BITMAP "lisu.bmp"
+HOTKEY  "^+L"
+
+begin Unicode > use(Main)
+
+group(Main) using keys
+
++ "a" > U+A4EE
++ "b" > U+A4D0
++ "c" > U+A4DA
++ "d" > U+A4D3
++ "e" > U+A4F0
++ "f" > U+A4DD
++ "g" > U+A4D6
++ "h" > U+A4E7
++ "i" > U+A4F2
++ "j" > U+A4D9
++ "k" > U+A4D7
++ "l" > U+A4E1
++ "m" > U+A4DF
++ "n" > U+A4E0
++ "o" > U+A4F3
++ "p" > U+A4D1
++ "q" > "Q"
++ "r" > U+A4E3
++ "s" > U+A4E2
++ "t" > U+A4D4
++ "u" > U+A4F4
++ "v" > U+A4E6
++ "w" > U+A4EA
++ "x" > U+A4EB
++ "y" > U+A4EC
++ "z" > U+A4DC
+
++ "A" > U+A4EF
++ "B" > U+A4ED
++ "C" > U+A4DB
++ "D" > U+A4F7
++ "E" > U+A4F1
++ "F" > U+A4DE
++ "G" > U+A4E8
++ "H" > U+A4E7
++ "I" > U+A4F2
++ "J" > U+A4E9
++ "K" > U+A4D8
++ "L" > U+A4F6
++ "M" > U+A4FF
++ "N" > U+A4FE
++ "O" > U+A4F3
++ "P" > U+A4D2
++ "Q" > "Q"
++ "R" > U+A4E4
++ "S" > U+A4E2
++ "T" > U+A4D5
++ "U" > U+A4F5
++ "V" > U+A4E5
++ "W" > U+A4EA
++ "X" > U+A4EB
++ "Y" > U+A4EC
++ "Z" > U+A4DC
+
++ "_" > U+02CD
++ "=" > U+A4FF
++ ";" > U+A4FC
++ ":" > U+A4FD
++ "'" > U+02BC
++ "," > U+A4F9
++ "." > U+A4F8
++ "<" > U+A4FB
++ ">" > U+A4FA
+
+c End of keyboard
