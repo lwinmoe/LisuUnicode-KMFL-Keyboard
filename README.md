@@ -5,7 +5,8 @@
 You need to install `ibus-kmfl` from SIL first. If you use Ubuntu, [SIL] has instructions on how to add their repository. Note that you have to replace `precise` with your current Ubuntu distribution.
 
 Then, install `ibus-kmfl` with the following command.
-	$ sudo apt-get install ibus-kmfl
+
+    $ sudo apt-get install ibus-kmfl
  
 ## How to install the keyboard
 
